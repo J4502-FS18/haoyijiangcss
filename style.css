@@ -35,7 +35,7 @@ h2,h3{
 }
 
 body{
-	background-color:#ebe3ce;
+	background-color:#00c2ff;
 }
 
 #container{
@@ -59,7 +59,7 @@ body{
 #nav a:link, a:visited {
 	display:block;
     color: #000000;
-    background-color: #98bf21;
+    background-color: #143fcc;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -68,7 +68,7 @@ body{
 }
 
 #nav a:hover, a:active {
-    background-color: #7a991a;
+    background-color: #582A72;
 }
 
 .caption {
@@ -85,5 +85,34 @@ body{
     font-family: Georgia, "Times New Roman", serif;
     font-size: 0.8em;
     border-top: 1px solid black;
-		background-color: #98bf21
+		background-color: #143fcc
+}
+
+
+/* =================================
+  Flexbox
+==================================== */
+
+ul{
+	display: flex;
+
+	flex-direction:column;
+
+}
+li{
+	flex: 1 1 auto;
+}
+
+@media (min-width: 600px) {
+	ul {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 800px) {
+
+	li {
+		margin-right: auto;
+	}
 }

@@ -1,2 +1,2 @@
 # haoyijiang
-My link is  https://j4502-fs18.github.io/haoyijiang/
+My link is  https://github.com/J4502-FS18/haoyijiangcss.git
